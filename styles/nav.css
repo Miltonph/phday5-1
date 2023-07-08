@@ -1,22 +1,49 @@
-/* Nav Section Start */
-nav >h3 span{
-    color: red;
-    }
-nav >h3{
-    
+/* font style */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+/* Nav Section Start */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-nav li > a{
+nav > ul{
+    display: flex;
+}
+nav >h3 span{
+    color: red;
+    font-family: open sans;
+    font-size: 45px;
+    font-style: normal;
+    line-height: normal;
+    
+    }
+nav >h3{
+    font-family: open sans;
+    font-size: 45px;
+    font-style: normal;
+    line-height: normal;
+    
+}
+
+nav a{
     text-decoration: none;
+    color: rgb(95, 37, 37);
 
 }
-nav > ul > li {
-    text-decoration: none;
-    display: inline;
-    margin-right: 15px;
+nav li {
+    list-style: none;    
+    margin-right: 50px;
     }
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(170, 75, 11);
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* Nav Section End */
 /* Main Section Start */
 .downloadcv{
