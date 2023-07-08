@@ -1,0 +1,83 @@
+/* Nav Section Start */
+nav >h3 span{
+    color: red;
+    }
+nav >h3{
+    
+}
+nav{
+    display: flex;
+}
+nav li > a{
+    text-decoration: none;
+
+}
+nav > ul > li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 15px;
+    }
+/* Nav Section End */
+/* Main Section Start */
+.downloadcv{
+    color: rgb(253, 253, 253);
+    background-color: chocolate;
+    border-color: white;
+}
+.contract{
+    color: rgb(194, 6, 6);
+    background-color: rgb(250, 248, 247);
+    border-color: chocolate ;
+    margin-left: 15px;
+   
+}
+#Hi{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+#name{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+main >div{
+    display: flex;
+    ;
+    
+}
+
+
+
+/* Main Section End */
+
+/* footer style */
+footer{
+    display:flex;
+    gap: 100px;
+    background: deepskyblue;
+    margin: 100px;
+    padding: 130px 200px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.fc{
+    width: 50%;
+
+}
+.ff input[type="text"], .ff input[type="email"] textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: aquamarine;
+    border-radius: 5px;
+    background: azure;
+    border: 0;
+
+
+
+
+}
